@@ -49,3 +49,36 @@ This repository contains a collection of Python exercises demonstrating fundamen
    ```sh
    git clone https://github.com/yourusername/python-exercises.git
    cd python-exercises
+   ```
+2. Ensure you have **Python 3.x** installed.  
+
+## Usage  
+Run any of the exercises using:  
+```sh
+python targil1.py  # Replace with the appropriate script name
+```
+
+## Examples  
+
+### **Power Operations Example**  
+```python
+x = make_power(4, 5)
+print_power(x)  # Output: 4 ^ 5
+print_power(improve_power(x))  # Output: 2 ^ 10
+```
+
+### **Binary Tree Example**  
+```python
+tree = make_tree(12, make_tree(6, make_tree(8, None, None), None), make_tree(7, make_tree(8, None, None), make_tree(15, None, None)))
+print_tree(tree)  # Outputs tree values in order
+```
+
+## Contributing  
+If you have suggestions or improvements, feel free to open a pull request or submit an issue.  
+
+## License  
+This project is open-source and available under the **MIT License**.  
+
+---
+
+🔗 **GitHub Repository:** https://github.com/shalevg12/Python_API 
